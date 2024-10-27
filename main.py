@@ -6,7 +6,7 @@ from langchain_core.prompts import ChatPromptTemplate
 
 # Check if the Mistral API key is set in the environment variables
 if "MISTRAL_API_KEY" not in os.environ:
-    os.environ["MISTRAL_API_KEY"] = 'LdpjtEOZsI0U8zaFnwkRZW0zz8ArZMl0'
+    os.environ["MISTRAL_API_KEY"] = '#use your api key here'
 
 # Initialize the LLM
 llm = ChatMistralAI(
