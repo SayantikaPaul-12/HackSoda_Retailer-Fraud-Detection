@@ -1,0 +1,6 @@
+streamlit
+langchain
+langchain-mistralai
+langchain-community
+pandas
+urllib3==1.26.12
